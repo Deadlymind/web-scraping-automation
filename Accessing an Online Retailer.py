@@ -28,7 +28,7 @@ def main():
     driver.find_element(By.ID, value="CustomerPassword").send_keys("v_$dFK72$H*bVBS" + Keys.RETURN)
     time.sleep(2)
     driver.find_element(By.XPATH, value="/html/body/footer/div/section/div/div[1]/div[1]/div[1]/nav/ul/li[1]/a").click()
-    time.sleep(3)
+    time.sleep(10)
     print(driver.current_url)
 
 if __name__ == "__main__":
